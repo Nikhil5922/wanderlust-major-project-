@@ -36,13 +36,13 @@
                 </form>
           </div>
           <div class="navbar-nav ms-auto">
-            <a class="nav-link" href="/listings/new">Airbnb your home</a>
+            <a class="btn" href="/listings/new"><b>Airbnb your home</b></a>
             <% if(!currUser) { %>
-            <a class="nav-link" href="/signup"><b>Sign up</b></a>
-            <a class="nav-link" href="/login"><b>Log in</b></a>
+            <a class="btn btn-primary" href="/signup"><b>Sign up</b></a>
+            <a class="btn btn-primary" href="/login"><b>Log in</b></a>
             <% } %>
             <% if(currUser) { %>
-            <a class="nav-link" href="/logout"><b>Log out</b></a>
+            <a class="btn btn-primary" href="/logout"><b>Log out</b></a>
             <% } %>
             </div>
         
